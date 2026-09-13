@@ -1,0 +1,23 @@
+ÁUDIO — ENTRE NÓS
+===================
+
+Coloque aqui os arquivos de áudio referenciados no site.
+
+Arquivos aceitos: mp3, ogg, wav (recomenda-se mp3 para compatibilidade).
+
+Nomes sugeridos para que o site os encontre automaticamente:
+    glory-box.mp3
+    metamorfose.mp3
+    sorriso-resplandecente.mp3
+
+Se os nomes estiverem diferentes, abra o arquivo js/content.js e altere
+a lista "audio" na seção inferior. Exemplo:
+
+    { nome: "glory box", arquivo: "glory-box.mp3" }
+
+REGRAS DE SEGURANÇA
+-------------------
+- O site nunca toca áudio sozinho.
+- O botão "som" só aparece depois que a abertura é aberta.
+- O áudio só inicia quando o botão de play é clicado.
+- Caso não haja nenhum arquivo, o botão desaparece.

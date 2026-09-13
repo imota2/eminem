@@ -1,0 +1,41 @@
+IMAGENS E ILUSTRAÇÕES — ENTRE NÓS
+================================
+
+Este site foi desenhado para funcionar bonito com as ilustrações em SVG
+já embutidas no código. Você pode trocá-las por fotografias ou ilustrações
+próprias a qualquer momento.
+
+COMO TROCAR
+-----------
+Abra o arquivo index.html e procure por "[PLACEHOLDER]" nos comentários.
+Exemplo: na seção 06 (VEIL), cada quadro é:
+
+    <figure class="quadro quadro-clear" data-desenho>
+      <svg viewBox="...">...</svg>
+      <figcaption ...>...</figcaption>
+    </figure>
+
+Para colocar uma imagem no lugar, apague o bloco <svg></svg> e use:
+
+    <img src="../assets/img/meu-desenho.png" alt="descrição" data-desenho>
+
+Se a imagem tiver linhas, mantenha data-desenho para ela surgir aos poucos.
+
+ONDE COLOCAR
+------------
+Coloque os arquivos nesta pasta (assets/img/) e aponte para eles assim:
+    <img src="assets/img/meu-desenho.png" ...>
+
+Sugestão de nomes (opcional):
+    chia-avery japan gate
+    ilustracao-veil-01.png ... ilustracao-veil-06.png
+    ilustracao-praia.png
+
+--> a praia à noite, o globo, os cartões de memória etc. podem ganhar
+    suas próprias fotos depois.
+
+REGRAS DO PROJETO
+-----------------
+- Não use imagens aleatórias só para preencher espaço.
+- Não copie páginas do mangá Veil.
+- Cada imagem deve ter um motivo narrativo.
